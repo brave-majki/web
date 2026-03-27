@@ -10,9 +10,9 @@ sudo pacman -Syu # optional if it breaks your system
 ```
 paru -S xampp
 ```
-
+\
 or
-
+\
 ```
 yay -S xampp
 ```
