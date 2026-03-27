@@ -21,6 +21,14 @@ you can put things in a alias and do something like this:
 web='sudo /opt/lampp/xampp startapache && sudo /opt/lampp/xampp startmysql'
 ```
 
+Windows install xampp for windows
+```
+https://www.apachefriends.org/download.html
+```
+open ```C:\xampp\htdocs```
+and paste all the files into htdocs then open xampp pannel
+start mysql and apache
+
 database and other setup 
 ```
 mysql -u root < bank.sql
