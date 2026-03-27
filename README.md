@@ -10,11 +10,17 @@ sudo pacman -Syu # optional if it breaks your system
 ```
 paru -S xampp || yay -S xampp
 ```
-
+you will have to start the apache services every single time
 ```
 sudo /opt/lampp/xampp startapache
 sudo /opt/lampp/xampp startmysql
 ```
+you can put things in a alias and do something like this:
+
+```
+web='sudo /opt/lampp/xampp startapache && sudo /opt/lampp/xampp startmysql'
+```
+
 database and other setup 
 ```
 mysql -u root < bank.sql
