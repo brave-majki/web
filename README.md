@@ -43,3 +43,6 @@ you have to write the ip of the host machine an example:
 # /etc/hosts
 10.0.21.17 www.bank.com bank.com
 ```
+
+the default credentials are ```user123``` and ```admin1``` 
+the password is the same as the user name
