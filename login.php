@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $conn->close();
                     
                     // Redirect to dashboard
-                    header('Location: dashboard.php');
+                    header('Location: verify.php');
                     exit;
                 } else {
                     $error = 'Invalid credentials.';
