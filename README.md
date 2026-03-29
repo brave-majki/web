@@ -44,5 +44,7 @@ you have to write the ip of the host machine an example:
 10.0.21.17 www.bank.com bank.com
 ```
 
+the site can be accessed with any browser on the address ```localhost``` 
+also known as ```127.0.0.1``` 
 the default credentials are ```user123``` and ```admin1``` 
 the password is the same as the user name
